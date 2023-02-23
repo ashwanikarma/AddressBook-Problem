@@ -12,6 +12,11 @@
             //add a new contact
             AddContact.GetCustomer();
             AddContact.ListingPeople();
+
+            // Modify existing contact
+            EditContact.GetCustomer();
+            EditContact.Modify();
+            EditContact.ListingPeople();
         }
     }
 }
