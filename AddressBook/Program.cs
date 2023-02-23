@@ -8,6 +8,10 @@
 
             //add a new contact
             CreateContact.PersonDetails();
+
+            //add a new contact
+            AddContact.GetCustomer();
+            AddContact.ListingPeople();
         }
     }
 }
